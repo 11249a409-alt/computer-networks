@@ -1,0 +1,43 @@
+Experiment 8: Study of Network Simulator (NS2)
+
+AIM
+To study Network Simulator (NS2).
+
+NS2 OVERVIEW
+Network Simulator Version 2 (NS2) is an event-driven simulation tool used to study the dynamic behavior of communication networks. It can simulate wired and wireless network functions and protocols, including routing algorithms, TCP, and UDP.
+
+FUNCTIONALITIES
+- Routing
+- Transport protocols
+- Traffic sources
+- Queuing disciplines
+- Quality of Service (QoS)
+
+BASIC ARCHITECTURE
+- The executable command "ns" takes a Tcl simulation script as input.
+- The Tcl script defines the simulation setup and schedules events.
+- C++ implements the internal mechanisms of simulation objects.
+- OTcl (Object-oriented Tool Command Language) configures and connects simulation objects.
+- TclCL links the C++ and OTcl components.
+- A trace file can be generated for analysis, graph plotting, or animation.
+
+NS2 PRELIMINARIES
+1. Initialization and termination of the simulator.
+2. Definition of network nodes, links, queues, and topology.
+3. Definition of agents and applications.
+4. Use of the NAM visualization tool.
+5. Tracing and random variables.
+
+USES
+- Test network protocols in a controlled and reproducible environment.
+- Model network topologies, nodes, links, and traffic.
+- Analyze network behavior without building a full physical test bed.
+- Study wired and wireless networks, including LAN and WAN technologies.
+
+EXAMPLES OF NETWORK SIMULATORS
+- NS (open source)
+- OPNET (proprietary)
+- NetSim (proprietary)
+
+RESULT
+Thus, the study of Network Simulator (NS2) was completed.
